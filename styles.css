@@ -1,0 +1,30 @@
+
+.home {
+    background-image: url("resources/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
+    background-size: cover;
+}
+
+.product_container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 64px;
+    row-gap: 70px;
+}
+
+.product_image {
+    width: 275px;
+    height: 240px;
+}
+
+.hr_product {
+    width: 30%;
+    border: 2px solid black;
+    
+}
+
+.add_to_cart_button {
+    background-color: #bf7631;
+    color: white;
+    font-weight: bold;
+    font-size: 12px;
+}
