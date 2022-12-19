@@ -1,28 +1,101 @@
+*{
+    box-sizing: border-box;
+}
 
+body {
+    font-family: 'Segoe UI';
+}
+h2 {
+    width: 100%;
+}
 .home {
     background-image: url("resources/earl-wilcox-y3W0CzO063w-unsplash-alt.jpg");
     background-size: cover;
 }
-
-.product_container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    column-gap: 64px;
-    row-gap: 70px;
+.about-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 4%;
 }
-
-.product_image {
-    width: 275px;
-    height: 240px;
+.about-1 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    height: 200px;
 }
-
-.hr_product {
+.about-image-a {
     width: 30%;
+    margin-left: 30px;
+    align-self: flex-end;
+}
+.about-text-a {
+    width: 60%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+.about-2 {
+    display: flex;
+    grid-area: left-i;
+    grid-column: 1;
+    grid-row: 2 / 3;
+}
+.about-image-b {
+    width: 397px;
+    height: 534px;
+    margin-top: 100px;
+}
+.about-text-b {
+    justify-content: space-between;
+    width: 45%;
+    margin-left: 55px;
+    margin-right: 0;
+    margin-top: 5%;
+}
+.about-text-c {
+    justify-content: space-between;
+    width: 45%;
+    margin-left: 55px;
+    margin-right: 0;
+    margin-bottom: 5%;
+}
+.hr-section {
     border: 2px solid black;
-    
+    margin-right: 500px;
+}
+.hr-section-right {
+    border: 2px solid black;
+    margin-left: 500px;
+}
+.product-container {
+    display: grid;
+    place-content: left;
+    text-align: left;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 1rem;
+    row-gap: 1rem;
+}
+.product {
+    padding-left: 1rem;
+    padding-right: 1rem;
 }
 
-.add_to_cart_button {
+.product-image {
+    width: 70%
+}
+.product-name-price {
+    width: 70%;
+    display:flex;
+    justify-content: space-between;
+}
+.product-text {
+    padding-right: 20%;
+}
+.hr-product {
+    margin-right: 200px;
+    border: 2px solid black;
+}
+
+.add-to-cart-button {
     background-color: #bf7631;
     color: white;
     font-weight: bold;
