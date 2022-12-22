@@ -1,2 +1,2 @@
 # eCommerce-Web-Site
-Build a single page eCommerce site that follows HTML &amp; CSS best practices
+Build a single page eCommerce site that follows HTML and CSS best practices

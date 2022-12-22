@@ -9,60 +9,82 @@
 </head>
 <body>
     <header>
-        <nav>
-            <li><a href="#home">HOME</a></li>
-            <li><a href="#products">PRODUCTS</a></li>
-            <li><a href="#about">ABOUT</a></li>
-            <li><a href="#contact">CONTACT</a></li>
-        </nav>
-        <div>
-            <h3>CARA<img src="resources/icons8-pottery-96.png">CARA</h3>
-        </div>
-        <div>
-            <input type="text" id="search" name="search" value="">
-            <span><strong>CART (0)</strong></span>
+        <div class="nav-container">
+            <ul>
+                <li><a href="#products">PRODUCTS</a></li>
+                <li><a href="#about">ABOUT</a></li>
+                <li><a href="#home">HOME</a></li>
+                <li><a href="#contact">CONTACT</a></li>
+            </ul>
+            <div class="logo">
+                <h3>CARA<img class="logo-image" src="resources/icons8-pottery-96.png">CARA</h3>
+            </div>
+            <div class="search">
+                <input class="search-box" type="text" id="search" name="search" value="">
+                <span class="search-cart"><h4>CART (0)</h4></span>
+            </div>
         </div>
     </header>
+    <hr class="nav-hr">
     <main>
         <section class="home" id="home">
-            <div>
-                <strong>CERAMICS</strong><br>
-                <strong>CRAFTED BY</strong><br>
-                <strong>HAND...</strong>
+            <div class="home-a">
+                <strong class="strong-2">CERAMICS</strong><br>
+                <strong class="strong-2">CRAFTED BY</strong><br>
+                <strong class="strong-2">HAND...</strong>
             </div>
-            <div>
-                <strong>...FROM THE</strong><br>
-                <strong>GROUND UP</strong>
+            <div class="home-b">
+                <strong class="strong-2">...FROM THE</strong><br>
+                <strong class="strong-2">GROUND UP</strong>
             </div>
         </section>
-        <section id="about">
-            <h2>ABOUT US</h2>
+        <div class="about-title">
+            <h2 class="about-title">ABOUT US</h2>
             <hr class="hr-section-right">
+        </div>
+        <section class="about" id="about">
             <div class="about-container">
-                <p class="about-text-a">
+                <div class="about-text-a">
                     Rrow itself, let it be sorrow; let him love it; let him pursue it, ishing for its acquisitiendum. Because he will ab 
                     hold, uniess but through concer, and also of those who resist. Now a pure snore disturbeded sum dust. He ejjnoyes, in 
                     order that somewon, also with a severe one, unless of life. May a cusstums offficer somewon nothing of a poison-filled. 
-                    Until, from a twho, twho chaffinch may also pursue it, not even a lump.  
-                </p>
+                    Until, from a twho, twho chaffinch may also pursue it, not even a lump. 
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    Rrow itself, let it be sorrow; let him love it; let him pursue it, ishing for its acquisitiendum. Because he will ab 
+                    hold, uniess but through concer, and also of those who resist. Now a pure snore disturbeded sum dust. He ejjnoyes, in 
+                    order that somewon, also with a severe one, unless of life. May a cusstums offficer somewon nothing of a poison-filled. 
+                    Until, from a twho, twho chaffinch may also pursue it, not even a lump. 
+                </div>
                 <img class="about-image-a" src="resources/Cylinder_unglazed3_2048x2048.jpg" alt="image of an unglazed cylinder vase">         
-                <p class="about-text-b">    
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    But as twho, as a tank; a proverb, yeast; or else they tinscribe nor. Yet yet dewlap bed. Twho may be, let him love fellows of a polecat.
-                </p>
                 <img class="about-image-b" src="resources/Vase_Dame_2048x2048.jpg" alt="a vase with a dame flower">
-                <p class="about-text-c">
-                    Now amour, the, twhose being, drunk, yet twhitch and, an enclosed valley's always a laugh. In acquisitiendum the Furies 
-                    are Earth; in (he takes up) a lump vehicles bien.
-                </p>
+                <div class="textbox-b"
+                    <div class="about-text-b">    
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna
+                        aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                        But as twho, as a tank; a proverb, yeast; or else they tinscribe nor. Yet yet dewlap bed. Twho may be, let him love fellows of a polecat.
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                    <br>
+                        Now amour, the, twhose being, drunk, yet twhitch and, an enclosed valley's always a laugh. In acquisitiendum the Furies 
+                        are Earth; in (he takes up) a lump vehicles bien.
+                    </div>
+                </div>
             </div>
         </section>
-        <section class="products" id="products">
-            <h2>OUR PRODUCTS</h2>
+        <div class="products-title">
+            <h2 class="our-products-title">OUR PRODUCTS</h2>
             <hr class="hr-section">
+        </div>
+        <section class="products" id="products">
             <div class="product-container">
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources/tom-crew-7HuTGlUfQSo-unsplash.jpg"></a>
                     <div class ="product-name-price">
                         <strong>MUNDO BOWLS</strong>
@@ -78,10 +100,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources\oriento-maVIpNNtmlQ-unsplash.jpg"></a>
-                    <br>
+                    <div class ="product-name-price">
                     <strong>NATUREZA VASE</strong>
-                    <span>$37.00</span>
+                        <span>$37.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -92,10 +116,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources\tom-crew-bgIO-u4GEfI-unsplash.jpg"></a>
-                    <br>
-                    <strong>FEIRA BOWLS</strong>
-                    <span>$29.00</span>
+                    <div class ="product-name-price">
+                        <strong>FEIRA BOWLS</strong>
+                        <span>$29.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -106,10 +132,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources/tom-crew-3uwu5K0RtaE-unsplash.jpg"></a>
-                    <br>
-                    <strong>NATUREZA POTS</strong>
-                    <span>$59.00</span>
+                    <div class ="product-name-price">
+                        <strong>NATUREZA POTS</strong>
+                        <span>$59.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -120,10 +148,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources/linh-le-a0rE64YJDA4-unsplash.jpg"></a>
-                    <br>
-                    <strong>PEDRA VASE</strong>
-                    <span>$31.00</span>
+                    <div class ="product-name-price">
+                        <strong>PEDRA VASE</strong>
+                        <span>$31.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -134,10 +164,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources\tom-crew-oiZAQvxTcYQ-unsplash.jpg"></a>
-                    <br>
-                    <strong>VIAJA POTS</strong>
-                    <span>$57.00</span>
+                    <div class ="product-name-price">
+                        <strong>VIAJA POTS</strong>
+                        <span>$57.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -148,10 +180,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources/tom-crew-YA2E3d7a9Wo-unsplash.jpg"></a>
-                    <br>
-                    <strong>SERVICO PLATES</strong>
-                    <span>$35.00</span>
+                    <div class ="product-name-price">
+                        <strong>SERVICO PLATES</strong>
+                        <span>$35.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -162,10 +196,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources/oriento-l0ah3UBLppo-unsplash.jpg"></a>
-                    <br>
-                    <strong>CAMPEAO VASE</strong>
-                    <span>$37.00</span>
+                    <div class ="product-name-price">
+                        <strong>CAMPEAO VASE</strong>
+                        <span>$37.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -176,10 +212,12 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
                 <div class="product">
+                    <a href="https://itsyourspottery.com/"
                     <a><img class="product-image" src="resources\tom-crew-SITGdvztUdg-unsplash.jpg"></a>
-                    <br>
-                    <strong>TROCA BOWLS</strong>
-                    <span>$25.00</span>
+                    <div class ="product-name-price">
+                        <strong>TROCA BOWLS</strong>
+                        <span>$25.00</span>
+                    </div>
                     <hr class="hr-product">
                     <p>
                         Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui
@@ -190,9 +228,11 @@
                     <span><button class="add-to-cart-button" type="button">ADD TO CART</button></span>
                 </div>
         </section>
-        <section class="contact" id="contact">
-            <h2>CONTACT US</h2>
-            <hr class="hr-section">
+        <div class="contact-title">
+            <h2 class="contact-us-title">CONTACT US</h2>
+            <hr class="hr-section-left">
+        </div>
+        <section class="contact" id="contact">        
             <div class="contact-forms">
                 <form>
                     <label for="email">EMAIL</label>
@@ -202,16 +242,19 @@
                 <form>
                     <label for="message">MESSAGE</label>
                     <br>
-                    <textarea name="message" rows="10" cols="30">
+                    <textarea name="message" rows="15" cols=75">
                     </textarea>
                 </form>
                 <form><button type="button">SEND</button></form>
-                
             </div>
         </section>
     </main>
     <footer>
-
+        <div class="bottom-nav"
+            <div class="logo">
+                <h3 class="bottom-h3">CARA<img class="logo-image" src="resources/icons8-pottery-96.png">CARA</h3>
+            </div>
+        </div>
     </footer>
 </body>
 </html>
